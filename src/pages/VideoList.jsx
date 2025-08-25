@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getVideos } from "../Services/api";
+import { getVideos } from "../services/api";
 import { Link } from "react-router-dom";
 
 const VideoList = () => {

@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { Navigate } from "react-router-dom";
-import { getVideosByCreator, getVideosByUserActivity } from "../Services/api";
+import { getVideosByCreator, getVideosByUserActivity } from "../services/api";
 
 const Dashboard = () => {
   const { user } = useContext(AuthContext);

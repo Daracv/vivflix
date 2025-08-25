@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import { uploadVideo } from "../Services/api";
+import { uploadVideo } from "../services/api";
 import { AuthContext } from "../context/AuthContext";
 
 const Upload = () => {

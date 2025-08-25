@@ -1,6 +1,6 @@
 import { useEffect, useState, useContext } from "react";
 import { useParams } from "react-router-dom";
-import { getVideoById, postComment, postRating } from "../Services/api";
+import { getVideoById, postComment, postRating } from "../services/api";
 import { AuthContext } from "../context/AuthContext";
 
 const VideoPlayer = () => {
