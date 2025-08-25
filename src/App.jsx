@@ -1,12 +1,12 @@
 // src/App.jsx
 import { Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
-import Login from "./Pages/Login";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
 import Signup from "./Pages/Signup";
-import Dashboard from "./Pages/Dashboard";
-import Upload from "./Pages/Upload";
-import VideoList from "./Pages/VideoList";
-import VideoPlayer from "./Pages/VideoPlayer";
+import Dashboard from "./pages/Dashboard";
+import Upload from "./pages/Upload";
+import VideoList from "./pages/VideoList";
+import VideoPlayer from "./pages/VideoPlayer";
 import Navbar from "./components/Navbar";
 import PrivateRoute from "./components/PrivateRoute";
 import AuthProvider from "./context/AuthProvider";
