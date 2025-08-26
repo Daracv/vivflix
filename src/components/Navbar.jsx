@@ -17,7 +17,7 @@ const Navbar = () => {
             to={user ? "/dashboard" : "/"}
             className="mr-4 font-bold text-xl"
           >
-            VideoApp
+            VivFlix
           </Link>
           <Link to="/videos" className="mr-4">
             Explore
