@@ -74,7 +74,7 @@ export const uploadVideo = async (formData) => {
 
 // Get Video
 export const getVideos = async (search = "") => {
-  const res = await publicApi.get("/videos", {
+  const res = await publicApi.get("/videos/video", {
     params: { search },
   });
   return res.data;
