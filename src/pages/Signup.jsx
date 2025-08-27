@@ -67,7 +67,7 @@ const Signup = () => {
           onChange={handleChange}
           className="w-full p-2 mb-3 border rounded"
         >
-          <option value="viewer">Consumer</option>
+          <option value="consumer">Consumer</option>
         </select>
         <button
           type="submit"
