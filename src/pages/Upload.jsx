@@ -14,7 +14,6 @@ const Upload = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Token being sent:", localStorage.getItem("token"));
     if (!videoFile) {
       alert("Please select a video file.");
       return;
